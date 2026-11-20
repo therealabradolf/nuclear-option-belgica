@@ -1,0 +1,90 @@
+--- a/pipeline/roads.py
++++ b/pipeline/roads.py
+@@ -84,6 +84,10 @@
+ 
+ TERTIARY_JOIN_MAX = 30000.0
+ TOWN_CELL, TOWN_BUILDINGS, TOWN_REACH = 1000.0, 150, 1500.0
++# Thinning for dense areas over the loader's limits: level 1 drops tertiary roads to towns; each later
++# level demotes secondary roads in 1 km cells with at least this many buildings to tertiary, so they stay
++# only where they join parts of the network that are otherwise apart.
++THIN_DENSITY = [None, None, 800, 400, 150]
+ DEST_SNAP, DEST_PATH_MAX = 1200.0, 20000.0
+ STRAND_MAX, STRAND_MIN_BUDGET = 8000.0, 1500.0
+ FRAGMENT_MIN = 1000.0
+@@ -570,13 +574,35 @@
+     return node_group
+ 
+ 
+-def select(P, A, pads, towns, ports, groups):
+-    """Choose the pieces that make the network (see the module docstring)."""
++def dense_pieces(build, A, P, threshold):
++    """Pieces whose midpoint lies in a TOWN_CELL cell holding at least `threshold` buildings."""
++    path = build / "buildings.npz"
++    if not path.exists():
++        return np.zeros(len(P["u"]), bool)
++    d = np.load(path)
++    x, z = d["x"].astype(np.float64), d["z"].astype(np.float64)
++
++    def key(xx, zz):
++        return np.floor(xx / TOWN_CELL).astype(np.int64) * 1000003 + np.floor(zz / TOWN_CELL).astype(np.int64)
++    k, c = np.unique(key(x, z), return_counts=True)
++    mx = (A["nx"][P["u"]] + A["nx"][P["v"]]) / 2
++    mz = (A["nz"][P["u"]] + A["nz"][P["v"]]) / 2
++    return np.isin(key(mx, mz), k[c >= threshold])
++
++
++def select(P, A, pads, towns, ports, groups, level=0, demote=None):
++    """Choose the pieces that make the network (see the module docstring).
++
++    level >= 1 leaves out the tertiary roads to towns (ports are still linked); `demote` marks
++    secondary pieces to treat as tertiary (kept only where they join parts of the network)."""
+     n, nx, nz = A["n_nodes"], A["nx"], A["nz"]
+     m = len(P["u"])
+     idx = np.arange(m)
+     usable = P["alive"] & (P["pad"] < 0)
+-    sel = usable & (P["cls"] <= 3)
++    cls = P["cls"]
++    if demote is not None:
++        cls = np.where(demote & (cls == 3), 4, cls).astype(P["cls"].dtype)
++    sel = usable & (cls <= 3)
+     km0 = P["len"][sel].sum() / 1000
+     report = {"base_km": round(km0, 1)}
+ 
+@@ -608,7 +634,7 @@
+     usable[access] = True
+ 
+     # Tertiary roads that join separate parts of the main network (cheapest joins first).
+-    tert = idx[usable & (P["cls"] == 4)]
++    tert = idx[usable & (cls == 4)]
+     base = idx[sel]
+     lab = components(n, P, base)
+     clen = np.bincount(lab[P["u"][base]], P["len"][base], minlength=lab.max() + 1)
+@@ -646,6 +672,9 @@
+     sel[added] = True
+     report["tertiary_joins"] = joins
+     report["tertiary_join_km"] = round(P["len"][added].sum() / 1000, 1)
++    if level >= 1:
++        towns = towns[:0]
++    report["thinning_level"] = level
+ 
+     # Tertiary roads to towns and ports the network does not reach.
+     dests = np.vstack([towns.reshape(-1, 2), ports.reshape(-1, 2)])
+@@ -1154,9 +1183,15 @@
+     P["alive"] = alive
+     log(f"{n_cause} pieces in the DEM's sea become causeways; {sea_dropped / 1000:.1f} km over open sea dropped")
+     groups = land_groups(terr, P, alive, A["nx"], A["nz"])
+-    sel, report = select(P, A, pads, towns, ports, groups)
+-
+-    recs = make_records(P, A, sel)
++    for level, density in enumerate(THIN_DENSITY):
++        demote = dense_pieces(build, A, P, density) if density else None
++        sel, report = select(P, A, pads, towns, ports, groups, level, demote)
++        recs = make_records(P, A, sel)
++        if len(recs) <= MAX_RECORDS:
++            break
++        if level + 1 < len(THIN_DENSITY):
++            log(f"{len(recs):,} records is over the loader's limit of {MAX_RECORDS:,}; thinning the network "
++                f"(level {level + 1})")
+     runs = orient_runs(recs)
+     log(f"{len(recs):,} records in {runs:,} runs")
+     nodey, n_free = node_heights(recs, terr)

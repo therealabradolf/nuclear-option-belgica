@@ -1,0 +1,6374 @@
+{
+    "JsonVersion": 6,
+    "MapKey": {
+        "Type": "GameWorldPrefab",
+        "Path": "cm.belgica.e8b69df3"
+    },
+    "missionSettings": {
+        "description": "FAULT LINE 1/5 - BROKEN SKY. Day one. The federal government has fallen and the army has split along the language border. The South has switched on its radars and SAMs around Beauvechain and Chievres; while they stand, nothing northern can fly south of Brussels. Fly as the North from Brussels, Kleine Brogel or Kortrijk and take the network apart: the early-warning radars, the SAM batteries and the fuel at Beauvechain. 45 minutes. Solo or co-op; the South is flown by the AI. Requires NOCustomMaps and the Belgica map (Nuclear Option Mod Manager). Fictional scenario: North = Boscali, South = Primeva. No nuclear weapons.",
+        "allowEventContent": false,
+        "Tags": [],
+        "playerMode": "SingleAndMultiplayer",
+        "allowRespawn": true,
+        "playerStartingRank": 3,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "missionSeaLanes": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 5.9,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.35,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0,
+        "moonPhase": 14.0
+    },
+    "aircraft": [],
+    "vehicles": [
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "TGT4_SAMWavre",
+            "globalPosition": {
+                "x": 22272.16,
+                "y": 57.31,
+                "z": 13231.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "TGT5_SAMNivelles",
+            "globalPosition": {
+                "x": 3237.63,
+                "y": 97.94,
+                "z": 754.55
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_Radar",
+            "globalPosition": {
+                "x": 22300.45,
+                "y": 56.69,
+                "z": 13260.08
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_Launcher",
+            "globalPosition": {
+                "x": 22272.16,
+                "y": 92.82,
+                "z": 14131.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_Launcher_1",
+            "globalPosition": {
+                "x": 23143.88,
+                "y": 51.58,
+                "z": 13203.51
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071067811865475,
+                "z": 0.0,
+                "w": 0.7071067811865476
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_Launcher_2",
+            "globalPosition": {
+                "x": 22272.16,
+                "y": 45.91,
+                "z": 12331.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_Launcher_3",
+            "globalPosition": {
+                "x": 21372.16,
+                "y": 98.98,
+                "z": 13231.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071067811865476,
+                "z": 0.0,
+                "w": -0.7071067811865475
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_AAA",
+            "globalPosition": {
+                "x": 22272.16,
+                "y": 81.06,
+                "z": 14711.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM0_AAA_1",
+            "globalPosition": {
+                "x": 22272.16,
+                "y": 64.72,
+                "z": 11751.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_Radar",
+            "globalPosition": {
+                "x": 3249.34,
+                "y": 99.92,
+                "z": 726.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_Launcher",
+            "globalPosition": {
+                "x": 3209.34,
+                "y": 108.95,
+                "z": 1626.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_Launcher_1",
+            "globalPosition": {
+                "x": 3988.77,
+                "y": 117.61,
+                "z": 276.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844386,
+                "z": 0.0,
+                "w": 0.5000000000000001
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_Launcher_2",
+            "globalPosition": {
+                "x": 2401.64,
+                "y": 109.03,
+                "z": 247.99
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844387,
+                "z": 0.0,
+                "w": -0.4999999999999998
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_AAA",
+            "globalPosition": {
+                "x": 3209.34,
+                "y": 114.42,
+                "z": 2166.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM1_AAA_1",
+            "globalPosition": {
+                "x": 3237.63,
+                "y": 131.24,
+                "z": -685.45
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_Radar",
+            "globalPosition": {
+                "x": -23714.65,
+                "y": 32.16,
+                "z": -12569.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_Launcher",
+            "globalPosition": {
+                "x": -23754.65,
+                "y": 42.4,
+                "z": -11669.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_Launcher_1",
+            "globalPosition": {
+                "x": -22975.23,
+                "y": 41.48,
+                "z": -13019.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844386,
+                "z": 0.0,
+                "w": 0.5000000000000001
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_Launcher_2",
+            "globalPosition": {
+                "x": -24534.07,
+                "y": 35.92,
+                "z": -13019.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844387,
+                "z": 0.0,
+                "w": -0.4999999999999998
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_AAA",
+            "globalPosition": {
+                "x": -23754.65,
+                "y": 47.91,
+                "z": -11129.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_SAM2_AAA_1",
+            "globalPosition": {
+                "x": -23754.65,
+                "y": 32.6,
+                "z": -14009.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_Radar",
+            "globalPosition": {
+                "x": 35419.86,
+                "y": 117.85,
+                "z": 17349.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_Launcher",
+            "globalPosition": {
+                "x": 35419.86,
+                "y": 106.14,
+                "z": 17969.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_Launcher_1",
+            "globalPosition": {
+                "x": 36026.08,
+                "y": 117.34,
+                "z": 16919.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844386,
+                "z": 0.0,
+                "w": 0.5000000000000001
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_Launcher_2",
+            "globalPosition": {
+                "x": 34813.65,
+                "y": 125.75,
+                "z": 16919.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844387,
+                "z": 0.0,
+                "w": -0.4999999999999998
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_AAA",
+            "globalPosition": {
+                "x": 35419.86,
+                "y": 102.51,
+                "z": 18389.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base0_AAA_1",
+            "globalPosition": {
+                "x": 35419.86,
+                "y": 128.41,
+                "z": 16149.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_Radar",
+            "globalPosition": {
+                "x": -31352.95,
+                "y": 61.77,
+                "z": -3066.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_Launcher",
+            "globalPosition": {
+                "x": -31352.95,
+                "y": 56.85,
+                "z": -2446.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_Launcher_1",
+            "globalPosition": {
+                "x": -30746.73,
+                "y": 67.72,
+                "z": -3496.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844386,
+                "z": 0.0,
+                "w": 0.5000000000000001
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_Launcher_2",
+            "globalPosition": {
+                "x": -31959.17,
+                "y": 59.92,
+                "z": -3496.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844387,
+                "z": 0.0,
+                "w": -0.4999999999999998
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_AAA",
+            "globalPosition": {
+                "x": -31352.95,
+                "y": 56.84,
+                "z": -2026.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base1_AAA_1",
+            "globalPosition": {
+                "x": -31352.95,
+                "y": 67.18,
+                "z": -4266.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_Radar",
+            "globalPosition": {
+                "x": 12770.6,
+                "y": 172.62,
+                "z": -15970.9
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_Launcher",
+            "globalPosition": {
+                "x": 12810.6,
+                "y": 180.0,
+                "z": -15380.18
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_Launcher_1",
+            "globalPosition": {
+                "x": 13376.82,
+                "y": 171.48,
+                "z": -16360.9
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844386,
+                "z": 0.0,
+                "w": 0.5000000000000001
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_Launcher_2",
+            "globalPosition": {
+                "x": 12164.38,
+                "y": 162.6,
+                "z": -16360.9
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8660254037844387,
+                "z": 0.0,
+                "w": -0.4999999999999998
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_AAA",
+            "globalPosition": {
+                "x": 12770.6,
+                "y": 179.69,
+                "z": -14890.9
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "PALA_Base2_AAA_1",
+            "globalPosition": {
+                "x": 12770.6,
+                "y": 173.4,
+                "z": -17090.9
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "holdPosition": true,
+            "skill": 0.8,
+            "waypoints": []
+        }
+    ],
+    "ships": [],
+    "buildings": [
+        {
+            "type": "radarStation1",
+            "faction": "Primeva",
+            "UniqueName": "TGT0_RadarBeauvechain",
+            "globalPosition": {
+                "x": 35419.86,
+                "y": 117.85,
+                "z": 17269.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "fuelTank1",
+            "faction": "Primeva",
+            "UniqueName": "TGT1_FuelBeauvechain",
+            "globalPosition": {
+                "x": 35730.27,
+                "y": 110.85,
+                "z": 17107.32
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "fuelTank1",
+            "faction": "Primeva",
+            "UniqueName": "TGT1_FuelBeauvechain_1",
+            "globalPosition": {
+                "x": 35730.27,
+                "y": 117.74,
+                "z": 16927.32
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 6.123233995736766e-17
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "radarStation1",
+            "faction": "Primeva",
+            "UniqueName": "TGT2_RadarChievres",
+            "globalPosition": {
+                "x": -31352.95,
+                "y": 63.83,
+                "z": -3146.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "radarStation1",
+            "faction": "Primeva",
+            "UniqueName": "TGT3_RadarWavre",
+            "globalPosition": {
+                "x": 21215.86,
+                "y": 61.1,
+                "z": 12488.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Hangar",
+            "globalPosition": {
+                "x": 13986.87,
+                "y": 32.8,
+                "z": 35144.7
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Hangar_1",
+            "globalPosition": {
+                "x": 14059.42,
+                "y": 32.8,
+                "z": 35178.41
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Hangar_2",
+            "globalPosition": {
+                "x": 14131.97,
+                "y": 32.8,
+                "z": 35212.11
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Hangar_3",
+            "globalPosition": {
+                "x": 14204.53,
+                "y": 32.8,
+                "z": 35245.82
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Shelter",
+            "globalPosition": {
+                "x": 13183.77,
+                "y": 32.8,
+                "z": 34771.6
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Shelter_1",
+            "globalPosition": {
+                "x": 13111.22,
+                "y": 32.8,
+                "z": 34737.89
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Shelter_2",
+            "globalPosition": {
+                "x": 13038.66,
+                "y": 32.8,
+                "z": 34704.19
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Shelter_3",
+            "globalPosition": {
+                "x": 12966.11,
+                "y": 32.8,
+                "z": 34670.48
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Helipad",
+            "globalPosition": {
+                "x": 13932.1,
+                "y": 32.8,
+                "z": 35262.6
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Helipad_1",
+            "globalPosition": {
+                "x": 13995.58,
+                "y": 32.8,
+                "z": 35292.09
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "BrusselsAirport_Tower",
+            "globalPosition": {
+                "x": 13129.0,
+                "y": 32.8,
+                "z": 34889.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9764496413113584,
+                "z": 0.0,
+                "w": 0.21574544718931965
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Hangar",
+            "globalPosition": {
+                "x": -98177.46,
+                "y": 4.0,
+                "z": 68267.82
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Hangar_1",
+            "globalPosition": {
+                "x": -98099.38,
+                "y": 4.0,
+                "z": 68285.23
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Hangar_2",
+            "globalPosition": {
+                "x": -98021.29,
+                "y": 4.0,
+                "z": 68302.63
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Hangar_3",
+            "globalPosition": {
+                "x": -97943.21,
+                "y": 4.0,
+                "z": 68320.04
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Shelter",
+            "globalPosition": {
+                "x": -98777.92,
+                "y": 4.0,
+                "z": 68133.95
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Shelter_1",
+            "globalPosition": {
+                "x": -98856.01,
+                "y": 4.0,
+                "z": 68116.55
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Shelter_2",
+            "globalPosition": {
+                "x": -98934.09,
+                "y": 4.0,
+                "z": 68099.14
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Shelter_3",
+            "globalPosition": {
+                "x": -99012.17,
+                "y": 4.0,
+                "z": 68081.73
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Helipad",
+            "globalPosition": {
+                "x": -98149.17,
+                "y": 4.0,
+                "z": 68140.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Helipad_1",
+            "globalPosition": {
+                "x": -98080.85,
+                "y": 4.0,
+                "z": 68156.17
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "Ostend-BrugesInternationalAirport_Tower",
+            "globalPosition": {
+                "x": -98749.63,
+                "y": 4.0,
+                "z": 68007.07
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.10945472871926176,
+                "z": 0.0,
+                "w": -0.9939917818377538
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Ostend-Bruges International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Hangar",
+            "globalPosition": {
+                "x": 12550.59,
+                "y": 179.39,
+                "z": -14816.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Hangar_1",
+            "globalPosition": {
+                "x": 12623.33,
+                "y": 179.39,
+                "z": -14783.39
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Hangar_2",
+            "globalPosition": {
+                "x": 12696.08,
+                "y": 179.39,
+                "z": -14750.1
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Hangar_3",
+            "globalPosition": {
+                "x": 12768.82,
+                "y": 179.39,
+                "z": -14716.81
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Shelter",
+            "globalPosition": {
+                "x": 12010.59,
+                "y": 179.39,
+                "z": -15063.83
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Shelter_1",
+            "globalPosition": {
+                "x": 11937.85,
+                "y": 179.39,
+                "z": -15097.12
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Shelter_2",
+            "globalPosition": {
+                "x": 11865.1,
+                "y": 179.39,
+                "z": -15130.42
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Shelter_3",
+            "globalPosition": {
+                "x": 11792.36,
+                "y": 179.39,
+                "z": -15163.71
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Helipad",
+            "globalPosition": {
+                "x": 12604.69,
+                "y": 179.39,
+                "z": -14934.89
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Helipad_1",
+            "globalPosition": {
+                "x": 12668.34,
+                "y": 179.39,
+                "z": -14905.76
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "BrusselsSouthCharleroiAirport_Tower",
+            "globalPosition": {
+                "x": 12064.69,
+                "y": 179.39,
+                "z": -15182.04
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.2129663131707931,
+                "z": 0.0,
+                "w": -0.9770595424304701
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Brussels South Charleroi Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Hangar",
+            "globalPosition": {
+                "x": 104760.66,
+                "y": 110.99,
+                "z": 36508.14
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Hangar_1",
+            "globalPosition": {
+                "x": 104802.34,
+                "y": 110.99,
+                "z": 36576.43
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Hangar_2",
+            "globalPosition": {
+                "x": 104844.01,
+                "y": 110.99,
+                "z": 36644.72
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Hangar_3",
+            "globalPosition": {
+                "x": 104885.68,
+                "y": 110.99,
+                "z": 36713.01
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Shelter",
+            "globalPosition": {
+                "x": 104494.39,
+                "y": 110.99,
+                "z": 36071.78
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Shelter_1",
+            "globalPosition": {
+                "x": 104452.72,
+                "y": 110.99,
+                "z": 36003.49
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Shelter_2",
+            "globalPosition": {
+                "x": 104411.05,
+                "y": 110.99,
+                "z": 35935.2
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Shelter_3",
+            "globalPosition": {
+                "x": 104369.37,
+                "y": 110.99,
+                "z": 35866.91
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Helipad",
+            "globalPosition": {
+                "x": 104871.64,
+                "y": 110.99,
+                "z": 36440.42
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Helipad_1",
+            "globalPosition": {
+                "x": 104908.1,
+                "y": 110.99,
+                "z": 36500.18
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "MaastrichtAachenAirport_Tower",
+            "globalPosition": {
+                "x": 104605.36,
+                "y": 110.99,
+                "z": 36004.07
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.48944018647937754,
+                "z": 0.0,
+                "w": -0.8720368706993026
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Maastricht Aachen Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Hangar",
+            "globalPosition": {
+                "x": 82418.61,
+                "y": 181.23,
+                "z": 5622.11
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Hangar_1",
+            "globalPosition": {
+                "x": 82474.19,
+                "y": 181.23,
+                "z": 5679.65
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Hangar_2",
+            "globalPosition": {
+                "x": 82529.77,
+                "y": 181.23,
+                "z": 5737.19
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Hangar_3",
+            "globalPosition": {
+                "x": 82585.35,
+                "y": 181.23,
+                "z": 5794.73
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Shelter",
+            "globalPosition": {
+                "x": 81981.09,
+                "y": 181.23,
+                "z": 5169.15
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Shelter_1",
+            "globalPosition": {
+                "x": 81925.51,
+                "y": 181.23,
+                "z": 5111.61
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Shelter_2",
+            "globalPosition": {
+                "x": 81869.93,
+                "y": 181.23,
+                "z": 5054.07
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Shelter_3",
+            "globalPosition": {
+                "x": 81814.35,
+                "y": 181.23,
+                "z": 4996.53
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Helipad",
+            "globalPosition": {
+                "x": 82512.11,
+                "y": 181.23,
+                "z": 5531.79
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Helipad_1",
+            "globalPosition": {
+                "x": 82560.74,
+                "y": 181.23,
+                "z": 5582.14
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "LiegeAirport_Tower",
+            "globalPosition": {
+                "x": 82074.59,
+                "y": 181.23,
+                "z": 5078.83
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3906785002799087,
+                "z": 0.0,
+                "w": -0.9205271910264473
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Liege Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Hangar",
+            "globalPosition": {
+                "x": 82984.45,
+                "y": 54.69,
+                "z": 64995.84
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Hangar_1",
+            "globalPosition": {
+                "x": 83044.91,
+                "y": 54.69,
+                "z": 65048.24
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Hangar_2",
+            "globalPosition": {
+                "x": 83105.36,
+                "y": 54.69,
+                "z": 65100.63
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Hangar_3",
+            "globalPosition": {
+                "x": 83165.82,
+                "y": 54.69,
+                "z": 65153.02
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Shelter",
+            "globalPosition": {
+                "x": 82531.18,
+                "y": 54.69,
+                "z": 64603.01
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Shelter_1",
+            "globalPosition": {
+                "x": 82470.73,
+                "y": 54.69,
+                "z": 64550.62
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Shelter_2",
+            "globalPosition": {
+                "x": 82410.27,
+                "y": 54.69,
+                "z": 64498.23
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Shelter_3",
+            "globalPosition": {
+                "x": 82349.82,
+                "y": 54.69,
+                "z": 64445.83
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Helipad",
+            "globalPosition": {
+                "x": 82899.31,
+                "y": 54.69,
+                "z": 65094.08
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Helipad_1",
+            "globalPosition": {
+                "x": 82952.21,
+                "y": 54.69,
+                "z": 65139.93
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "KleineBrogelAirBase_Tower",
+            "globalPosition": {
+                "x": 82446.04,
+                "y": 54.69,
+                "z": 64701.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9369347440452316,
+                "z": 0.0,
+                "w": 0.34950434246357565
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kleine Brogel Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Hangar",
+            "globalPosition": {
+                "x": 34049.17,
+                "y": 102.21,
+                "z": 18767.38
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Hangar_1",
+            "globalPosition": {
+                "x": 34099.63,
+                "y": 102.21,
+                "z": 18829.46
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Hangar_2",
+            "globalPosition": {
+                "x": 34150.08,
+                "y": 102.21,
+                "z": 18891.54
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Hangar_3",
+            "globalPosition": {
+                "x": 34200.54,
+                "y": 102.21,
+                "z": 18953.62
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Shelter",
+            "globalPosition": {
+                "x": 33673.58,
+                "y": 102.21,
+                "z": 18305.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Shelter_1",
+            "globalPosition": {
+                "x": 33623.12,
+                "y": 102.21,
+                "z": 18243.19
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Shelter_2",
+            "globalPosition": {
+                "x": 33572.66,
+                "y": 102.21,
+                "z": 18181.11
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Shelter_3",
+            "globalPosition": {
+                "x": 33522.2,
+                "y": 102.21,
+                "z": 18119.03
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Helipad",
+            "globalPosition": {
+                "x": 33948.29,
+                "y": 102.21,
+                "z": 18849.37
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Helipad_1",
+            "globalPosition": {
+                "x": 33992.44,
+                "y": 102.21,
+                "z": 18903.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "BeauvechainAirBase_Tower",
+            "globalPosition": {
+                "x": 33572.7,
+                "y": 102.21,
+                "z": 18387.26
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.902973857450237,
+                "z": 0.0,
+                "w": 0.42969548841178123
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Beauvechain Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Hangar",
+            "globalPosition": {
+                "x": 45173.27,
+                "y": 12.91,
+                "z": 108716.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Hangar_1",
+            "globalPosition": {
+                "x": 45252.19,
+                "y": 12.91,
+                "z": 108702.92
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Hangar_2",
+            "globalPosition": {
+                "x": 45331.12,
+                "y": 12.91,
+                "z": 108689.85
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Hangar_3",
+            "globalPosition": {
+                "x": 45528.43,
+                "y": 12.91,
+                "z": 108657.16
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Shelter",
+            "globalPosition": {
+                "x": 44628.94,
+                "y": 12.91,
+                "z": 108806.18
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Shelter_1",
+            "globalPosition": {
+                "x": 44550.02,
+                "y": 12.91,
+                "z": 108819.26
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Shelter_2",
+            "globalPosition": {
+                "x": 44471.09,
+                "y": 12.91,
+                "z": 108832.33
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Shelter_3",
+            "globalPosition": {
+                "x": 44392.17,
+                "y": 12.91,
+                "z": 108845.41
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Helipad",
+            "globalPosition": {
+                "x": 45194.52,
+                "y": 12.91,
+                "z": 108844.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Helipad_1",
+            "globalPosition": {
+                "x": 45263.58,
+                "y": 12.91,
+                "z": 108832.81
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "GilzeRijenAirBase_Tower",
+            "globalPosition": {
+                "x": 44650.19,
+                "y": 12.91,
+                "z": 108934.43
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9966324035050685,
+                "z": 0.0,
+                "w": -0.08199909928596874
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Gilze Rijen Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Hangar",
+            "globalPosition": {
+                "x": -31299.23,
+                "y": 56.54,
+                "z": -1942.59
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Hangar_1",
+            "globalPosition": {
+                "x": -31220.37,
+                "y": 56.54,
+                "z": -1929.17
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Hangar_2",
+            "globalPosition": {
+                "x": -31141.5,
+                "y": 56.54,
+                "z": -1915.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Hangar_3",
+            "globalPosition": {
+                "x": -31062.64,
+                "y": 56.54,
+                "z": -1902.32
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Shelter",
+            "globalPosition": {
+                "x": -31801.83,
+                "y": 56.54,
+                "z": -2028.14
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Shelter_1",
+            "globalPosition": {
+                "x": -31880.69,
+                "y": 56.54,
+                "z": -2041.57
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Shelter_2",
+            "globalPosition": {
+                "x": -31959.56,
+                "y": 56.54,
+                "z": -2054.99
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Shelter_3",
+            "globalPosition": {
+                "x": -32038.42,
+                "y": 56.54,
+                "z": -2068.42
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Helipad",
+            "globalPosition": {
+                "x": -31277.42,
+                "y": 56.54,
+                "z": -2070.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Helipad_1",
+            "globalPosition": {
+                "x": -31208.41,
+                "y": 56.54,
+                "z": -2059.01
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "ChievresAirBase_Tower",
+            "globalPosition": {
+                "x": -31780.01,
+                "y": 56.54,
+                "z": -2156.3
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.08420083371402094,
+                "z": 0.0,
+                "w": -0.9964488043055015
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Chievres Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Hangar",
+            "globalPosition": {
+                "x": 4304.21,
+                "y": 19.52,
+                "z": 95056.13
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Hangar_1",
+            "globalPosition": {
+                "x": 4379.21,
+                "y": 19.52,
+                "z": 95083.97
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Hangar_2",
+            "globalPosition": {
+                "x": 4454.21,
+                "y": 19.52,
+                "z": 95111.82
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Hangar_3",
+            "globalPosition": {
+                "x": 4529.2,
+                "y": 19.52,
+                "z": 95139.67
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Shelter",
+            "globalPosition": {
+                "x": 3833.29,
+                "y": 19.52,
+                "z": 94881.26
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Shelter_1",
+            "globalPosition": {
+                "x": 3758.3,
+                "y": 19.52,
+                "z": 94853.41
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Shelter_2",
+            "globalPosition": {
+                "x": 3683.3,
+                "y": 19.52,
+                "z": 94825.56
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Shelter_3",
+            "globalPosition": {
+                "x": 3608.3,
+                "y": 19.52,
+                "z": 94797.72
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Helipad",
+            "globalPosition": {
+                "x": 4349.47,
+                "y": 19.52,
+                "z": 94934.26
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Helipad_1",
+            "globalPosition": {
+                "x": 4415.09,
+                "y": 19.52,
+                "z": 94958.62
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "WoensdrechtAirBase_Tower",
+            "globalPosition": {
+                "x": 3878.55,
+                "y": 19.52,
+                "z": 94759.39
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17683935138012255,
+                "z": 0.0,
+                "w": -0.9842397288280216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Woensdrecht Air Base",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Hangar",
+            "globalPosition": {
+                "x": -75542.83,
+                "y": 16.58,
+                "z": 25495.13
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Hangar_1",
+            "globalPosition": {
+                "x": -75471.53,
+                "y": 16.58,
+                "z": 25531.41
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Hangar_2",
+            "globalPosition": {
+                "x": -75400.24,
+                "y": 16.58,
+                "z": 25567.7
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Hangar_3",
+            "globalPosition": {
+                "x": -75328.94,
+                "y": 16.58,
+                "z": 25603.99
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Shelter",
+            "globalPosition": {
+                "x": -75908.55,
+                "y": 16.58,
+                "z": 25308.99
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Shelter_1",
+            "globalPosition": {
+                "x": -75979.85,
+                "y": 16.58,
+                "z": 25272.7
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Shelter_2",
+            "globalPosition": {
+                "x": -76051.15,
+                "y": 16.58,
+                "z": 25236.41
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Shelter_3",
+            "globalPosition": {
+                "x": -76122.44,
+                "y": 16.58,
+                "z": 25200.13
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Helipad",
+            "globalPosition": {
+                "x": -75483.86,
+                "y": 16.58,
+                "z": 25379.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Helipad_1",
+            "globalPosition": {
+                "x": -75421.48,
+                "y": 16.58,
+                "z": 25411.02
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "Kortrijk-WevelgemInternationalAirport_Tower",
+            "globalPosition": {
+                "x": -75849.59,
+                "y": 16.58,
+                "z": 25193.13
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.23322816674124303,
+                "z": 0.0,
+                "w": -0.9724220391571341
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Kortrijk-Wevelgem International Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Hangar",
+            "globalPosition": {
+                "x": -115938.52,
+                "y": 17.04,
+                "z": 4079.94
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Hangar_1",
+            "globalPosition": {
+                "x": -115888.4,
+                "y": 17.04,
+                "z": 4142.3
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Hangar_2",
+            "globalPosition": {
+                "x": -115838.29,
+                "y": 17.04,
+                "z": 4204.66
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Hangar_3",
+            "globalPosition": {
+                "x": -115788.17,
+                "y": 17.04,
+                "z": 4267.02
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Shelter",
+            "globalPosition": {
+                "x": -116195.75,
+                "y": 17.04,
+                "z": 3759.87
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Shelter_1",
+            "globalPosition": {
+                "x": -116245.87,
+                "y": 17.04,
+                "z": 3697.51
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Shelter_2",
+            "globalPosition": {
+                "x": -116295.98,
+                "y": 17.04,
+                "z": 3635.15
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Shelter_3",
+            "globalPosition": {
+                "x": -116346.1,
+                "y": 17.04,
+                "z": 3572.8
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Helipad",
+            "globalPosition": {
+                "x": -115837.19,
+                "y": 17.04,
+                "z": 3998.51
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Helipad_1",
+            "globalPosition": {
+                "x": -115793.33,
+                "y": 17.04,
+                "z": 4053.07
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "Merville-CalonneAirport_Tower",
+            "globalPosition": {
+                "x": -116094.42,
+                "y": 17.04,
+                "z": 3678.43
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.432180287894295,
+                "z": 0.0,
+                "w": -0.9017872247684618
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Merville-Calonne Airport",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Hangar",
+            "globalPosition": {
+                "x": -58532.63,
+                "y": 47.94,
+                "z": -29729.74
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Hangar_1",
+            "globalPosition": {
+                "x": -58458.17,
+                "y": 47.94,
+                "z": -29759.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Hangar_2",
+            "globalPosition": {
+                "x": -58383.72,
+                "y": 47.94,
+                "z": -29788.27
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Hangar_3",
+            "globalPosition": {
+                "x": -58309.26,
+                "y": 47.94,
+                "z": -29817.53
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Shelter",
+            "globalPosition": {
+                "x": -58897.1,
+                "y": 47.94,
+                "z": -29586.49
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Shelter_1",
+            "globalPosition": {
+                "x": -58971.56,
+                "y": 47.94,
+                "z": -29557.22
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Shelter_2",
+            "globalPosition": {
+                "x": -59046.01,
+                "y": 47.94,
+                "z": -29527.96
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Shelter_3",
+            "globalPosition": {
+                "x": -59120.47,
+                "y": 47.94,
+                "z": -29498.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Helipad",
+            "globalPosition": {
+                "x": -58580.18,
+                "y": 47.94,
+                "z": -29850.73
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Helipad_1",
+            "globalPosition": {
+                "x": -58515.03,
+                "y": 47.94,
+                "z": -29876.34
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "Valenciennes-DenainAirfield_Tower",
+            "globalPosition": {
+                "x": -58944.66,
+                "y": 47.94,
+                "z": -29707.48
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.18615463559168274,
+                "z": 0.0,
+                "w": 0.9825204586408
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Valenciennes-Denain Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Hangar",
+            "globalPosition": {
+                "x": 12555.79,
+                "y": 9.47,
+                "z": 66116.63
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Hangar_1",
+            "globalPosition": {
+                "x": 12631.1,
+                "y": 9.47,
+                "z": 66089.65
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Hangar_2",
+            "globalPosition": {
+                "x": 12706.41,
+                "y": 9.47,
+                "z": 66062.67
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Hangar_3",
+            "globalPosition": {
+                "x": 12781.73,
+                "y": 9.47,
+                "z": 66035.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Shelter",
+            "globalPosition": {
+                "x": 12215.85,
+                "y": 9.47,
+                "z": 66238.42
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Shelter_1",
+            "globalPosition": {
+                "x": 12140.53,
+                "y": 9.47,
+                "z": 66265.4
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Shelter_2",
+            "globalPosition": {
+                "x": 12065.22,
+                "y": 9.47,
+                "z": 66292.38
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Shelter_3",
+            "globalPosition": {
+                "x": 11989.91,
+                "y": 9.47,
+                "z": 66319.37
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Helipad",
+            "globalPosition": {
+                "x": 12511.94,
+                "y": 9.47,
+                "z": 65994.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Helipad_1",
+            "globalPosition": {
+                "x": 12577.84,
+                "y": 9.47,
+                "z": 65970.64
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Boscali",
+            "UniqueName": "AntwerpInternationalAirport(Deurne)_Tower",
+            "globalPosition": {
+                "x": 12172.0,
+                "y": 9.47,
+                "z": 66116.04
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.17116136654932668,
+                "z": 0.0,
+                "w": 0.9852430089074304
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Antwerp International Airport (Deurne)",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Hangar",
+            "globalPosition": {
+                "x": 26185.43,
+                "y": 148.56,
+                "z": -90249.88
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Hangar_1",
+            "globalPosition": {
+                "x": 26259.64,
+                "y": 148.56,
+                "z": -90279.78
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Hangar_2",
+            "globalPosition": {
+                "x": 26333.84,
+                "y": 148.56,
+                "z": -90309.68
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Hangar_3",
+            "globalPosition": {
+                "x": 26408.04,
+                "y": 148.56,
+                "z": -90339.58
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Shelter",
+            "globalPosition": {
+                "x": 25851.53,
+                "y": 148.56,
+                "z": -90115.34
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Shelter_1",
+            "globalPosition": {
+                "x": 25777.33,
+                "y": 148.56,
+                "z": -90085.45
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Shelter_2",
+            "globalPosition": {
+                "x": 25703.13,
+                "y": 148.56,
+                "z": -90055.55
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Shelter_3",
+            "globalPosition": {
+                "x": 25628.93,
+                "y": 148.56,
+                "z": -90025.65
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Helipad",
+            "globalPosition": {
+                "x": 26136.85,
+                "y": 148.56,
+                "z": -90370.46
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Helipad_1",
+            "globalPosition": {
+                "x": 26201.77,
+                "y": 148.56,
+                "z": -90396.62
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "Charleville-MezieresArdennes-EtienneRi_Tower",
+            "globalPosition": {
+                "x": 25802.95,
+                "y": 148.56,
+                "z": -90235.92
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.19034807388287203,
+                "z": 0.0,
+                "w": 0.9817166652191867
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Charleville-Mezieres Ardennes-Etienne Ri",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Hangar",
+            "globalPosition": {
+                "x": -90065.44,
+                "y": 86.91,
+                "z": -80102.62
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Hangar_1",
+            "globalPosition": {
+                "x": -89985.51,
+                "y": 86.91,
+                "z": -80105.86
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Hangar_2",
+            "globalPosition": {
+                "x": -89905.58,
+                "y": 86.91,
+                "z": -80109.1
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Hangar_3",
+            "globalPosition": {
+                "x": -89825.64,
+                "y": 86.91,
+                "z": -80112.35
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Shelter",
+            "globalPosition": {
+                "x": -90409.01,
+                "y": 86.91,
+                "z": -80088.69
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Shelter_1",
+            "globalPosition": {
+                "x": -90488.95,
+                "y": 86.91,
+                "z": -80085.45
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Shelter_2",
+            "globalPosition": {
+                "x": -90568.88,
+                "y": 86.91,
+                "z": -80082.21
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Shelter_3",
+            "globalPosition": {
+                "x": -90648.81,
+                "y": 86.91,
+                "z": -80078.97
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Helipad",
+            "globalPosition": {
+                "x": -90070.71,
+                "y": 86.91,
+                "z": -80232.52
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Helipad_1",
+            "globalPosition": {
+                "x": -90000.77,
+                "y": 86.91,
+                "z": -80235.35
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        },
+        {
+            "type": "controlTower1",
+            "faction": "Primeva",
+            "UniqueName": "PeronneSaint-QuentinAirfield_Tower",
+            "globalPosition": {
+                "x": -90414.28,
+                "y": 86.91,
+                "z": -80218.59
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.020260349553205298,
+                "z": 0.0,
+                "w": 0.9997947380517572
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "capturable": false,
+            "Airbase": "Peronne Saint-Quentin Airfield",
+            "placementOffset": 0.0
+        }
+    ],
+    "scenery": [],
+    "containers": [],
+    "missiles": [],
+    "pilots": [],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [
+                {
+                    "UnitType": "COIN",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "trainer",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "AttackHelo1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Fighter1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "SmallFighter1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "QuadVTOL1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Multirole1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "EW1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Darkreach",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "UtilityHelo1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "CAS1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "FastBomber1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "VTOLTrainer1",
+                    "Count": 20
+                }
+            ],
+            "startingBalance": 6000.0,
+            "playerJoinAllowance": 200.0,
+            "playerTaxRate": 0.2,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "airSkillMultiplier": 1.0,
+            "surfaceSkillMultiplier": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 1,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 3,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": false,
+            "supplies": [
+                {
+                    "UnitType": "COIN",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "trainer",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "AttackHelo1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Fighter1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "SmallFighter1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "QuadVTOL1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Multirole1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "EW1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "Darkreach",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "UtilityHelo1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "CAS1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "FastBomber1",
+                    "Count": 20
+                },
+                {
+                    "UnitType": "VTOLTrainer1",
+                    "Count": 20
+                }
+            ],
+            "startingBalance": 6000.0,
+            "playerJoinAllowance": 0.0,
+            "playerTaxRate": 0.2,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "airSkillMultiplier": 1.0,
+            "surfaceSkillMultiplier": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 1,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 4,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [],
+    "objectives": [
+        {
+            "Type": "None",
+            "UniqueName": "Mission Start",
+            "Faction": "",
+            "DisplayName": "",
+            "Hidden": true,
+            "Outcomes": [
+                "Start_All"
+            ]
+        },
+        {
+            "Type": "DestroyUnits",
+            "UniqueName": "Strike",
+            "Faction": "Boscali",
+            "DisplayName": "Destroy the southern radar and air defence network",
+            "Hidden": false,
+            "Outcomes": [
+                "Msg_Hit",
+                "Strike Victory"
+            ],
+            "targetUnits": [
+                "TGT0_RadarBeauvechain",
+                "TGT1_FuelBeauvechain",
+                "TGT1_FuelBeauvechain_1",
+                "TGT2_RadarChievres",
+                "TGT3_RadarWavre",
+                "TGT4_SAMWavre",
+                "TGT5_SAMNivelles"
+            ],
+            "completeOrder": "CompleteSome",
+            "completeSomePercent": 0.7
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Time Limit",
+            "Faction": "Boscali",
+            "DisplayName": "Time Limit",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_OutOfTime",
+                "Out of Time"
+            ],
+            "seconds": 2700.0
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Wait_I0",
+            "Faction": "Boscali",
+            "DisplayName": "Wait_I0",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_I0"
+            ],
+            "seconds": 5.0
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Wait_I1",
+            "Faction": "Boscali",
+            "DisplayName": "Wait_I1",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_I1"
+            ],
+            "seconds": 65.0
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Wait_I2",
+            "Faction": "Boscali",
+            "DisplayName": "Wait_I2",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_I2"
+            ],
+            "seconds": 125.0
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Wait_I3",
+            "Faction": "Boscali",
+            "DisplayName": "Wait_I3",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_I3"
+            ],
+            "seconds": 185.0
+        },
+        {
+            "Type": "WaitSeconds",
+            "UniqueName": "Wait_Late",
+            "Faction": "Boscali",
+            "DisplayName": "Wait_Late",
+            "Hidden": true,
+            "Outcomes": [
+                "Msg_Late"
+            ],
+            "seconds": 2400.0
+        }
+    ],
+    "outcomes": [
+        {
+            "Type": "EndGame",
+            "UniqueName": "Strike Victory",
+            "endType": "Victory",
+            "endDelay": 8.0
+        },
+        {
+            "Type": "EndGame",
+            "UniqueName": "Out of Time",
+            "endType": "Defeat",
+            "endDelay": 8.0
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_Hit",
+            "Message": "The southern air defence network is down. The North owns the sky over Brabant - for now.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": false
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_OutOfTime",
+            "Message": "Out of time. The targets have dispersed.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": false
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_I0",
+            "Message": "North, this is Brussels Control. Southern radars at Beauvechain, Chievres and Wavre are painting everything north of the language border.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": true
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_I1",
+            "Message": "SAM batteries at Wavre and Nivelles cover the approach. Go low, kill the radars first, then the launchers.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": true
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_I2",
+            "Message": "Southern fighters are airborne. Expect company.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": true
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_I3",
+            "Message": "Destroy most of the network and the sky over Brabant is ours.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": true
+        },
+        {
+            "Type": "ShowMessage",
+            "UniqueName": "Msg_Late",
+            "Message": "Five minutes left on the strike window.",
+            "PlaySound": true,
+            "ObjectiveFactionOnly": true
+        },
+        {
+            "Type": "StartObjective",
+            "UniqueName": "Start_All",
+            "objectivesToStart": [
+                "Strike",
+                "Time Limit",
+                "Wait_I0",
+                "Wait_I1",
+                "Wait_I2",
+                "Wait_I3",
+                "Wait_Late"
+            ]
+        }
+    ]
+}
