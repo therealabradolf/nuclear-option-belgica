@@ -46,10 +46,7 @@ weapons are off in every mission. The missions need this exact build of the map 
 4. **Meuse Crossing**: northern counter-offensive towards Namur and the Meuse (both sides)
 5. **Battle for Brussels**: every airbase in play (both sides)
 
-Subscribe on the Steam Workshop, or download `fault-line-missions.zip` from
-[Releases](https://github.com/therealabradolf/nuclear-option-belgica/releases) and unzip it into
-`%USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\`. The mission files are also in
-[`missions/`](missions/).
+Subscribe on the Steam Workshop. The mission files are also in [`missions/`](missions/), for reference.
 
 ## Build notes
 
