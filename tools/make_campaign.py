@@ -49,14 +49,14 @@ STRIKE = {
     "description": (
         "FAULT LINE 1/5 - BROKEN SKY. Day one. The federal government has fallen and the army has split along "
         "the language border. The South has switched on its radars and SAMs around Beauvechain and Chievres; while "
-        "they stand, nothing northern can fly south of Brussels. Fly as the North from Brussels, Kleine Brogel or "
+        "they stand, nothing northern can fly south of Brussels. Fly as the North from Brussels, Antwerp or "
         "Kortrijk and take the network apart: the early-warning radars, the SAM batteries and the fuel at "
         "Beauvechain. 45 minutes. Solo or co-op; the South is flown by the AI. " + REQ),
     "targets": [
         {"name": "Radar Beauvechain", "type": "radarStation1", "base": "Beauvechain Air Base", "extra": 700},
         {"name": "Fuel Beauvechain", "type": "fuelTank1", "base": "Beauvechain Air Base", "extra": 1100,
          "count": 2, "spacing": 90},
-        {"name": "Radar Chievres", "type": "radarStation1", "base": "Chievres Air Base", "extra": 700},
+        {"name": "Radar Chievres", "type": "radarStation1", "lat": 50.590, "lon": 3.810},
         {"name": "Radar Wavre", "type": "radarStation1", "lat": 50.705, "lon": 4.585},
         {"name": "SAM Wavre", "type": "RadarSAM1", "lat": 50.712, "lon": 4.600},
         {"name": "SAM Nivelles", "type": "RadarSAM1", "lat": 50.600, "lon": 4.330},
@@ -66,12 +66,12 @@ STRIKE = {
         {"lat": 50.600, "lon": 4.330, "launchers": 3, "aaa": 2},     # Nivelles
         {"lat": 50.480, "lon": 3.950, "launchers": 3, "aaa": 2},     # Mons
     ],
-    "baseRings": ["Beauvechain Air Base", "Chievres Air Base", "Brussels South Charleroi Airport"],
+    "baseRings": ["Beauvechain Air Base", "Brussels South Charleroi Airport", "Florennes Air Base"],
     "intel": [
         "North, this is Brussels Control. Southern radars at Beauvechain, Chievres and Wavre are painting "
         "everything north of the language border.",
         "SAM batteries at Wavre and Nivelles cover the approach. Go low, kill the radars first, then the launchers.",
-        "Southern fighters are airborne. Expect company.",
+        "Southern fighters are airborne from Beauvechain, Charleroi and Florennes. Expect company.",
         "Destroy most of the network and the sky over Brabant is ours.",
     ],
     "winText": "The southern air defence network is down. The North owns the sky over Brabant - for now.",
@@ -103,7 +103,7 @@ OFFENSIVE_HAINAUT = {
     "attackerSams": [{"lat": 50.520, "lon": 3.800, "launchers": 3, "aaa": 2}],
     "defenderSams": [{"lat": 50.850, "lon": 3.620, "launchers": 3, "aaa": 2},
                      {"lat": 50.790, "lon": 4.150, "launchers": 3, "aaa": 2}],
-    "attackerBaseRings": ["Chievres Air Base"],
+    "attackerBaseRings": ["Valenciennes-Denain Airfield"],
     "defenderBaseRings": ["Kortrijk-Wevelgem International Airport"],
     "reserve": {"from": [50.935, 4.040], "to": [50.775, 3.890]},
     "text": {
@@ -131,7 +131,7 @@ LANDING = {
         "North's window on the sea. The North has a small squadron off Zeebrugge, beach defences and a reserve "
         "in Bruges. SOUTH: capture Ostend-Bruges. NORTH: sink both assault carriers, and the landing craft before "
         "they reach the beach. Both sides playable: PvP, or co-op against the AI. " + REQ),
-    "fleetStart": [51.520, 2.600],
+    "fleetStart": [51.540, 2.850],
     "landingZone": [51.215, 2.700],
     "beach": [51.168, 2.765],
     "beachhead": [51.150, 2.800],
@@ -144,7 +144,7 @@ LANDING = {
     "reserve": {"from": [51.205, 3.200], "to": [51.185, 2.900]},
     "defenderSams": [{"lat": 51.230, "lon": 3.050, "launchers": 3, "aaa": 2}],
     "defenderBaseRings": ["Ostend-Bruges International Airport"],
-    "attackerBaseRings": ["Merville-Calonne Airport"],
+    "attackerBaseRings": ["Lille Airport"],
     "navy": {"at": [51.390, 3.150], "ships": ["Frigate1", "Corvette1", "Corvette1", "PatrolBoat1"]},
     "text": {
         "a1": "South, the assault group is closing the Flemish coast. Clear the beach at Westende before the "
@@ -161,36 +161,36 @@ OFFENSIVE_MEUSE = {
     "time": 6.4, "weather": 0.25,
     "aiAttacker": 6, "aiDefender": 6,
     "description": (
-        "FAULT LINE 4/5 - MEUSE CROSSING. The North strikes back in the east. From Sint-Truiden, Tongeren and "
-        "the Voeren, three columns push south on the southern line north of Liege, with the crossing at Vise as "
-        "the prize. Rocket artillery near Bilzen covers them. The South holds the line and has a reserve in "
-        "Seraing. NORTH: break 70% of the southern line. SOUTH: destroy 75% of the three columns. "
-        "Both sides playable: PvP, or co-op against the AI. " + REQ),
-    "line": [[50.715, 5.450], [50.730, 5.580], [50.735, 5.690]],
+        "FAULT LINE 4/5 - MEUSE CROSSING. The North strikes back in the east. From Leuven, Tienen and Landen, "
+        "three armoured columns push south past Beauvechain on the southern line in front of Namur, at Gembloux, "
+        "Eghezee and Andenne. The bridges over the Meuse at Namur are the prize. Rocket artillery near Boutersem "
+        "covers them; the South has a reserve in Namur. NORTH: break 70% of the southern line. SOUTH: destroy 75% "
+        "of the three columns. Both sides playable: PvP, or co-op against the AI. " + REQ),
+    "line": [[50.560, 4.690], [50.585, 4.900], [50.520, 5.060]],
     "lineHeading": 0.0,
     "waves": [
-        {"assembly": [50.815, 5.190], "crossing": [50.780, 5.330], "target": 0, "at": 120,
-         "text": "First column away from Sint-Truiden, heading south-east."},
-        {"assembly": [50.800, 5.440], "crossing": [50.775, 5.540], "target": 1, "at": 600,
-         "text": "Second column out of Tongeren, driving on Bassenge."},
-        {"assembly": [50.755, 5.800], "crossing": [50.752, 5.730], "target": 2, "at": 1080,
-         "text": "Third column out of the Voeren, going for the crossing at Vise."},
+        {"assembly": [50.860, 4.700], "crossing": [50.720, 4.700], "target": 0, "at": 120,
+         "text": "First column out of Leuven, driving south past Beauvechain on Gembloux."},
+        {"assembly": [50.800, 4.950], "crossing": [50.700, 4.880], "target": 1, "at": 600,
+         "text": "Second column out of Tienen, through Jodoigne towards Eghezee."},
+        {"assembly": [50.750, 5.080], "crossing": [50.660, 5.070], "target": 2, "at": 1080,
+         "text": "Third column out of Landen, through Hannut, going for Andenne and the Meuse."},
     ],
-    "artillery": [50.870, 5.500],
-    "attackerSams": [{"lat": 50.930, "lon": 5.340, "launchers": 3, "aaa": 2}],
-    "defenderSams": [{"lat": 50.640, "lon": 5.570, "launchers": 4, "aaa": 2}],
-    "attackerBaseRings": ["Maastricht Aachen Airport", "Kleine Brogel Air Base"],
-    "defenderBaseRings": ["Liege Airport"],
-    "reserve": {"from": [50.605, 5.500], "to": [50.700, 5.620]},
+    "artillery": [50.840, 4.840],
+    "attackerSams": [{"lat": 50.880, "lon": 4.720, "launchers": 3, "aaa": 2}],
+    "defenderSams": [{"lat": 50.470, "lon": 4.860, "launchers": 4, "aaa": 2}],
+    "attackerBaseRings": ["Brussels Airport"],
+    "defenderBaseRings": ["Beauvechain Air Base", "Florennes Air Base"],
+    "reserve": {"from": [50.460, 4.870], "to": [50.570, 4.900]},
     "text": {
-        "a1": "North, the counter-offensive begins. Cover the columns and get us across the Meuse.",
-        "d1": "South, northern armour is moving out of Limburg. Hold the line north of Liege.",
-        "d2": "Hit them at the crossings, and find the rocket artillery near Bilzen.",
-        "attackGoal": "Break the southern line north of Liege",
+        "a1": "North, the counter-offensive begins. Cover the columns and get us to the Meuse.",
+        "d1": "South, northern armour is moving out of Brabant. Hold the line in front of Namur.",
+        "d2": "Hit them at the crossings, and find the rocket artillery near Boutersem.",
+        "attackGoal": "Break the southern line in front of Namur",
         "defendGoal": "Destroy the northern armoured columns",
-        "broken": "The southern line has broken. Northern armour is across at Vise.",
-        "held": "The northern offensive has stalled on the plateau. Liege holds.",
-        "reserve": "The Seraing reserve is moving up to Herstal. Cover it.",
+        "broken": "The southern line has broken. Northern armour is on the Meuse at Namur.",
+        "held": "The northern offensive has stalled in the Hesbaye. Namur holds.",
+        "reserve": "The Namur reserve is moving up to Eghezee. Cover it.",
     },
 }
 

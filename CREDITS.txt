@@ -1,14 +1,14 @@
 Belgica - a real-world map for Nuclear Option, made with Open Skies 0.1.0
 
-Map id belgica, registered in the game as cm.belgica.10f62142
-Centre 50.59348, 4.28467; 261.12 km square.
-Airbases: Brussels (EBBR, Boscali), Ostend-Bruges (EBOS, Boscali), Brussels South (EBCI, Primeva), Maastricht Aachen (EHBK, Boscali), Liege (EBLG, Primeva), Kleine Brogel (EBBL, Boscali), Beauvechain (EBBE, Primeva), Gilze Rijen (EHGR, Boscali), Chievres (EBCV, Primeva), Woensdrecht (EHWO, Boscali), Kortrijk-Wevelgem (EBKT, Boscali), Merville-Calonne (LFQT, Primeva), Valenciennes-Denain (LFAV, Primeva), Antwerp (Deurne) (EBAW, Boscali), Charleville-Mezieres (LFQV, Primeva), Peronne (LFAG, Primeva)
+Map id belgica, registered in the game as cm.belgica.977b8a61
+Centre 50.82906, 3.87817; 199.68 km square.
+Airbases: Brussels (EBBR, Boscali), Ostend-Bruges (EBOS, Boscali), Brussels South (EBCI, Primeva), Lille (LFQQ, Primeva), Florennes (EBFS, Primeva), Beauvechain (EBBE, Primeva), Gilze Rijen (EHGR, Boscali), Kortrijk-Wevelgem (EBKT, Boscali), Valenciennes-Denain (LFAV, Primeva), Antwerp (Deurne) (EBAW, Boscali)
 
 Needs BepInEx 5 and NOCustomMaps 1.4 or later. Install by copying
   belgica.nomap  to  <Nuclear Option>\BepInEx\plugins\NOCustomMaps\maps\
   missions\Belgica - Escalation\  to  %USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\
   missions\Belgica - Strike on Brussels\  to  %USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\
-  missions\Belgica - Strike on Liege\  to  %USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\
+  missions\Belgica - Strike on Florennes\  to  %USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\
   missions\Belgica Free Flight\  to  %USERPROFILE%\AppData\LocalLow\Shockfront\NuclearOption\Missions\
 (Open Skies' Install button does both.) Every player in a multiplayer game needs this exact build.
 
@@ -38,3 +38,7 @@ exact data used for this map on request (Export OSM data), and anyone who receiv
 
 This project is an unofficial community modification and is not affiliated with, sponsored by, or endorsed by Shockfront Studios Pty Ltd. Original Nuclear Option assets, vehicle designs, audio, and code are Copyright (c) 2026 Shockfront Studios Pty Ltd. All rights reserved. Nuclear Option and Shockfront Studios are trademarks or registered trademarks of Shockfront Studios Pty Ltd. Original mod content and all other trademarks belong to their respective owners.
 It contains no game files. Mods for Nuclear Option may not be sold or put behind a paywall.
+
+Build notes
+-----------
+8% of the sea had no depth soundings (common near coasts and in fjords); those parts take the depth of the nearest real sounding, so ships can still sail them.
