@@ -36,7 +36,7 @@ counts as a different map.
 
 The map ships with Open Skies' own Free Flight, Escalation and two Strike missions.
 
-**Fault Line** is a five-mission campaign on Steam Workshop: a fictional war in which the country splits along
+**Fault Line** is a five-mission campaign on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3843138468): a fictional war in which the country splits along
 the language border. North (Dutch-speaking) flies as Boscali, South (French-speaking) as Primeva. Nuclear
 weapons are off in every mission. The missions need this exact build of the map (`cm.belgica.977b8a61`).
 
@@ -46,7 +46,7 @@ weapons are off in every mission. The missions need this exact build of the map 
 4. **Meuse Crossing**: northern counter-offensive towards Namur and the Meuse (both sides)
 5. **Battle for Brussels**: every airbase in play (both sides)
 
-Subscribe on the Steam Workshop. The mission files are also in [`missions/`](missions/), for reference.
+Subscribe to the [Fault Line collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3843138468) on the Steam Workshop. The mission files are also in [`missions/`](missions/), for reference.
 
 ## Build notes
 
