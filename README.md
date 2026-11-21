@@ -9,7 +9,7 @@ from real-world open data: terrain at 30 m, land cover, towns, roads and 10 real
 
 ## Install
 
-**With the Nuclear Option Mod Manager (NOMM):** tick **NOCustomMaps** and **Belgica**. *(Listing pending.)*
+**With the Nuclear Option Mod Manager (NOMM):** search for **Belgica** and install it. NOCustomMaps comes with it.
 
 **By hand:**
 
